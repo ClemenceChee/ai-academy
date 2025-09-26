@@ -1,0 +1,47 @@
+{
+  "id": 5,
+  "title": "Safe AI Usage Guidelines",
+  "description": "Ethical AI development and responsible deployment practices",
+  "duration": "4 hours",
+  "level": "Beginner",
+  "track": "Compliance",
+  "instructor": "tbd / Clemence",
+  "image_url": "/nist-ai-risk-framework.png",
+  "tags": [
+    "Ethics",
+    "Safety",
+    "Responsible AI",
+    "Governance"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "AI Safety and Ethics Framework",
+      "description": "Comprehensive framework for safe and ethical AI development",
+      "duration": "2 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "🛡️ Module 1: AI Safety Principles",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">AI Safety and Ethics</h3>\n                        <p class=\"mb-4\">As your AI safety instructor with 10 years of experience analyzing AI failures, I'll teach you how to build safe, ethical AI systems that benefit everyone.</p>\n                        \n                        <div class=\"bg-blue-50 p-4 rounded-lg mb-6\">\n                            <h4 class=\"font-semibold text-blue-900 mb-2\">🎯 Learning Objectives</h4>\n                            <ul class=\"text-blue-800 space-y-1\">\n                                <li>• Understand core AI safety principles</li>\n                                <li>• Learn bias detection and mitigation techniques</li>\n                                <li>• Master AI risk assessment frameworks</li>\n                                <li>• Implement responsible AI governance</li>\n                            </ul>\n                        </div>\n                        \n                        <img src=\"/nist-ai-risk-framework.png\" alt=\"NIST AI Risk Management Framework\" class=\"w-full max-h-96 object-contain mx-auto mb-6 rounded-lg shadow-md\" />\n                        \n                        <h4 class=\"font-semibold mb-3\">AI Risk Assessment Matrix</h4>\n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">Risk Category</th>\n                                        <th class=\"px-4 py-3 text-left\">Impact Level</th>\n                                        <th class=\"px-4 py-3 text-left\">Mitigation Strategy</th>\n                                        <th class=\"px-4 py-3 text-left\">Monitoring Method</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Algorithmic Bias</td>\n                                        <td class=\"px-4 py-3\">🔥🔥🔥 High</td>\n                                        <td class=\"px-4 py-3\">Diverse training data, Fairness metrics</td>\n                                        <td class=\"px-4 py-3\">Regular bias audits</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Privacy Violation</td>\n                                        <td class=\"px-4 py-3\">🔥🔥🔥 High</td>\n                                        <td class=\"px-4 py-3\">Data minimization, Encryption</td>\n                                        <td class=\"px-4 py-3\">Privacy impact assessments</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Model Drift</td>\n                                        <td class=\"px-4 py-3\">🔥🔥 Medium</td>\n                                        <td class=\"px-4 py-3\">Continuous monitoring, Retraining</td>\n                                        <td class=\"px-4 py-3\">Performance metrics tracking</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Adversarial Attacks</td>\n                                        <td class=\"px-4 py-3\">🔥🔥 Medium</td>\n                                        <td class=\"px-4 py-3\">Robust training, Input validation</td>\n                                        <td class=\"px-4 py-3\">Anomaly detection</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                        \n                        <div class=\"bg-red-50 p-4 rounded-lg mb-4\">\n                            <h4 class=\"font-semibold text-red-900 mb-2\">🚨 Critical Safety Reminder</h4>\n                            <p class=\"text-red-800\">AI safety isn't a one-time check—it's an ongoing process. The most dangerous AI systems are those that work perfectly in testing but fail catastrophically in production.</p>\n                        </div>\n                    </div>\n                    "
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "title": "AI Ethics Assessment",
+          "description": "Evaluate AI systems for ethical considerations and safety",
+          "download_url": "/downloads/ai-ethics-assessment.pdf"
+        }
+      ],
+      "resources": [
+        {
+          "id": 1,
+          "title": "Partnership on AI",
+          "url": "https://partnershiponai.org/",
+          "description": "Industry collaboration on AI best practices"
+        }
+      ]
+    }
+  ]
+}

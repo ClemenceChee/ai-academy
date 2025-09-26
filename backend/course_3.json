@@ -1,0 +1,52 @@
+{
+  "id": 3,
+  "title": "AI Product Management",
+  "description": "Strategic product management for AI-powered products and features",
+  "duration": "8 hours",
+  "level": "Intermediate",
+  "track": "Product",
+  "instructor": "tbd / Clemence",
+  "image_url": "/ai-product-management.png",
+  "tags": [
+    "Product",
+    "Strategy",
+    "AI",
+    "Management"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "AI Product Strategy and User Research",
+      "description": "Developing product strategy and conducting user research for AI products",
+      "duration": "4 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "🎯 Module 1: AI Product Strategy",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">AI Product Strategy Framework</h3>\n                        <p class=\"mb-4\">As your product management instructor with 12 years of experience building AI products, I'll teach you the frameworks that separate successful AI products from expensive experiments.</p>\n                        \n                        <div class=\"bg-blue-50 p-4 rounded-lg mb-6\">\n                            <h4 class=\"font-semibold text-blue-900 mb-2\">🎯 Learning Objectives</h4>\n                            <ul class=\"text-blue-800 space-y-1\">\n                                <li>• Master AI product categorization and strategy</li>\n                                <li>• Learn user research methods for AI products</li>\n                                <li>• Understand AI product metrics and KPIs</li>\n                                <li>• Develop go-to-market strategies for AI features</li>\n                            </ul>\n                        </div>\n                        \n                        <img src=\"/ai-product-management.png\" alt=\"AI Product Management Framework\" class=\"w-full max-h-96 object-contain mx-auto mb-6 rounded-lg shadow-md\" />\n                        \n                        <h4 class=\"font-semibold mb-3\">AI Product Categories</h4>\n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">Product Type</th>\n                                        <th class=\"px-4 py-3 text-left\">User Experience</th>\n                                        <th class=\"px-4 py-3 text-left\">Key Metrics</th>\n                                        <th class=\"px-4 py-3 text-left\">Success Factors</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">AI-First Products</td>\n                                        <td class=\"px-4 py-3\">AI is the core value proposition</td>\n                                        <td class=\"px-4 py-3\">Model accuracy, User satisfaction</td>\n                                        <td class=\"px-4 py-3\">Data quality, Algorithm performance</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">AI-Enhanced Products</td>\n                                        <td class=\"px-4 py-3\">AI improves existing features</td>\n                                        <td class=\"px-4 py-3\">Feature adoption, Efficiency gains</td>\n                                        <td class=\"px-4 py-3\">Seamless integration, Clear value</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">AI-Powered Insights</td>\n                                        <td class=\"px-4 py-3\">AI provides recommendations</td>\n                                        <td class=\"px-4 py-3\">Insight quality, Action rate</td>\n                                        <td class=\"px-4 py-3\">Relevance, Actionability</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">AI Infrastructure</td>\n                                        <td class=\"px-4 py-3\">Behind-the-scenes optimization</td>\n                                        <td class=\"px-4 py-3\">Performance, Cost reduction</td>\n                                        <td class=\"px-4 py-3\">Reliability, Scalability</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                        \n                        <div class=\"bg-green-50 p-4 rounded-lg mb-4\">\n                            <h4 class=\"font-semibold text-green-900 mb-2\">💡 Product Strategy Insight</h4>\n                            <p class=\"text-green-800\">The most successful AI products solve a specific user problem first, then use AI as the solution. Don't start with \"we need to use AI\"—start with \"our users need X.\"</p>\n                        </div>\n                    </div>\n                    "
+        },
+        {
+          "id": 2,
+          "title": "🔍 Module 2: AI User Research Methods",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">User Research for AI Products</h3>\n                        <p class=\"mb-4\">AI products require specialized user research approaches. Here's what I've learned from researching hundreds of AI features.</p>\n                        \n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">Research Method</th>\n                                        <th class=\"px-4 py-3 text-left\">AI-Specific Focus</th>\n                                        <th class=\"px-4 py-3 text-left\">Key Questions</th>\n                                        <th class=\"px-4 py-3 text-left\">Deliverable</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Trust Interviews</td>\n                                        <td class=\"px-4 py-3\">AI transparency needs</td>\n                                        <td class=\"px-4 py-3\">How much explanation do users need?</td>\n                                        <td class=\"px-4 py-3\">Explainability requirements</td>\n                                    </tr>\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Error Recovery Studies</td>\n                                        <td class=\"px-4 py-3\">AI failure handling</td>\n                                        <td class=\"px-4 py-3\">How do users react to AI mistakes?</td>\n                                        <td class=\"px-4 py-3\">Error UX patterns</td>\n                                    </tr>\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Mental Model Research</td>\n                                        <td class=\"px-4 py-3\">AI capability understanding</td>\n                                        <td class=\"px-4 py-3\">What do users expect AI to do?</td>\n                                        <td class=\"px-4 py-3\">Feature scope definition</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                    "
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "title": "AI Product Strategy Canvas",
+          "description": "Complete strategic planning for AI product development",
+          "download_url": "/downloads/ai-product-strategy-canvas.pdf"
+        }
+      ],
+      "resources": [
+        {
+          "id": 1,
+          "title": "Google AI Product Management Course",
+          "url": "https://www.coursera.org/learn/ai-product-management",
+          "description": "Comprehensive course on AI product management"
+        }
+      ]
+    }
+  ]
+}

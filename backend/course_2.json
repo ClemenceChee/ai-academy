@@ -1,0 +1,64 @@
+{
+  "id": 2,
+  "title": "GDPR Compliance for AI Systems",
+  "description": "Comprehensive legal framework for AI compliance and data protection",
+  "duration": "6 hours",
+  "level": "Intermediate",
+  "track": "Compliance",
+  "instructor": "tbd / Clemence",
+  "image_url": "/gdpr-rights-infographic.png",
+  "tags": [
+    "GDPR",
+    "Compliance",
+    "Legal",
+    "Privacy"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "GDPR Legal Framework for AI",
+      "description": "Understanding GDPR fundamentals and their application to AI systems",
+      "duration": "3 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "⚖️ Module 1: GDPR Legal Framework for AI",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">GDPR Fundamentals for AI Systems</h3>\n                        <p class=\"mb-4\">As your legal compliance instructor with 10 years of experience in data protection law, I'll guide you through the complex intersection of GDPR and AI systems.</p>\n                        \n                        <div class=\"bg-blue-50 p-4 rounded-lg mb-6\">\n                            <h4 class=\"font-semibold text-blue-900 mb-2\">🎯 Learning Objectives</h4>\n                            <ul class=\"text-blue-800 space-y-1\">\n                                <li>• Master GDPR principles as they apply to AI systems</li>\n                                <li>• Understand legal bases for AI data processing</li>\n                                <li>• Learn to conduct privacy impact assessments</li>\n                                <li>• Implement privacy by design principles</li>\n                            </ul>\n                        </div>\n                        \n                        <img src=\"/gdpr-rights-infographic.png\" alt=\"GDPR Individual Rights\" class=\"w-full max-h-96 object-contain mx-auto mb-6 rounded-lg shadow-md\" />\n                        \n                        <h4 class=\"font-semibold mb-3\">Core GDPR Principles for AI</h4>\n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">GDPR Principle</th>\n                                        <th class=\"px-4 py-3 text-left\">AI Application</th>\n                                        <th class=\"px-4 py-3 text-left\">Compliance Challenge</th>\n                                        <th class=\"px-4 py-3 text-left\">Solution Approach</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Lawfulness</td>\n                                        <td class=\"px-4 py-3\">Legal basis for AI processing</td>\n                                        <td class=\"px-4 py-3\">Evolving AI purposes</td>\n                                        <td class=\"px-4 py-3\">Legitimate interests assessment</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Transparency</td>\n                                        <td class=\"px-4 py-3\">Explainable AI decisions</td>\n                                        <td class=\"px-4 py-3\">Black box algorithms</td>\n                                        <td class=\"px-4 py-3\">Meaningful information provision</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Data Minimization</td>\n                                        <td class=\"px-4 py-3\">Minimal data for AI training</td>\n                                        <td class=\"px-4 py-3\">Big data requirements</td>\n                                        <td class=\"px-4 py-3\">Privacy-preserving techniques</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Purpose Limitation</td>\n                                        <td class=\"px-4 py-3\">Specific AI use cases</td>\n                                        <td class=\"px-4 py-3\">Feature discovery</td>\n                                        <td class=\"px-4 py-3\">Compatible use assessment</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                        \n                        <div class=\"bg-red-50 p-4 rounded-lg mb-4\">\n                            <h4 class=\"font-semibold text-red-900 mb-2\">⚠️ Critical Compliance Point</h4>\n                            <p class=\"text-red-800\">Article 22 prohibits solely automated decision-making with legal or significant effects. This directly impacts AI systems used for hiring, lending, or other consequential decisions.</p>\n                        </div>\n                    </div>\n                    "
+        },
+        {
+          "id": 2,
+          "title": "🔒 Module 2: Privacy by Design for AI",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">Implementing Privacy by Design</h3>\n                        <p class=\"mb-4\">Privacy by Design isn't optional under GDPR—it's mandatory. Here's how to build it into your AI systems from day one.</p>\n                        \n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">Privacy Technique</th>\n                                        <th class=\"px-4 py-3 text-left\">AI Application</th>\n                                        <th class=\"px-4 py-3 text-left\">Implementation Complexity</th>\n                                        <th class=\"px-4 py-3 text-left\">Privacy Benefit</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Differential Privacy</td>\n                                        <td class=\"px-4 py-3\">Training data protection</td>\n                                        <td class=\"px-4 py-3\">🔥🔥🔥 High</td>\n                                        <td class=\"px-4 py-3\">Mathematical privacy guarantee</td>\n                                    </tr>\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Federated Learning</td>\n                                        <td class=\"px-4 py-3\">Distributed model training</td>\n                                        <td class=\"px-4 py-3\">🔥🔥 Medium</td>\n                                        <td class=\"px-4 py-3\">Data stays local</td>\n                                    </tr>\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Homomorphic Encryption</td>\n                                        <td class=\"px-4 py-3\">Encrypted computation</td>\n                                        <td class=\"px-4 py-3\">🔥🔥🔥 High</td>\n                                        <td class=\"px-4 py-3\">Compute on encrypted data</td>\n                                    </tr>\n                                    <tr>\n                                        <td class=\"px-4 py-3 font-medium\">Synthetic Data</td>\n                                        <td class=\"px-4 py-3\">Training data generation</td>\n                                        <td class=\"px-4 py-3\">🔥 Low</td>\n                                        <td class=\"px-4 py-3\">No real personal data</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                    "
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "title": "GDPR Compliance Checklist",
+          "description": "Complete assessment of AI system GDPR compliance",
+          "download_url": "/downloads/gdpr-compliance-checklist.pdf"
+        },
+        {
+          "id": 2,
+          "title": "Privacy Impact Assessment Template",
+          "description": "Conduct DPIA for AI systems",
+          "download_url": "/downloads/ai-dpia-template.docx"
+        }
+      ],
+      "resources": [
+        {
+          "id": 1,
+          "title": "ICO AI Guidance",
+          "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/artificial-intelligence/",
+          "description": "Official UK regulator guidance on AI and data protection"
+        },
+        {
+          "id": 2,
+          "title": "EDPB Guidelines on Automated Decision-Making",
+          "url": "https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-42021-automated-individual-decision-making_en",
+          "description": "European Data Protection Board guidance on Article 22"
+        }
+      ]
+    }
+  ]
+}

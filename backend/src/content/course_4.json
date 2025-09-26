@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "title": "Machine Learning for Developers",
+  "description": "Comprehensive technical foundation for implementing machine learning solutions.",
+  "duration": "10 hours",
+  "level": "Intermediate",
+  "track": "Developer",
+  "rating": 4.6,
+  "tags": [
+    "ML",
+    "Development",
+    "Technical",
+    "Programming"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "ML Fundamentals",
+      "duration": "5 hours",
+      "modules": []
+    }
+  ]
+}

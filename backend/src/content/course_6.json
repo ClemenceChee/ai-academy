@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "title": "MLOps and Production AI",
+  "description": "Advanced practices for deploying and maintaining AI systems in production.",
+  "duration": "4 hours",
+  "level": "Advanced",
+  "track": "Developer",
+  "rating": 4.7,
+  "tags": [
+    "MLOps",
+    "Production",
+    "DevOps",
+    "Deployment"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "MLOps Fundamentals",
+      "duration": "2 hours",
+      "modules": []
+    }
+  ]
+}

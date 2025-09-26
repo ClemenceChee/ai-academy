@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "title": "AI Product Management",
+  "description": "Strategic product management for AI-powered products and services.",
+  "duration": "8 hours",
+  "level": "Intermediate",
+  "track": "Product",
+  "rating": 4.9,
+  "tags": [
+    "Product",
+    "Management",
+    "Strategy",
+    "AI"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "AI Product Strategy",
+      "duration": "4 hours",
+      "modules": []
+    }
+  ]
+}

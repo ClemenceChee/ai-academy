@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "title": "Safe AI Usage Guidelines",
+  "description": "Essential guidelines for safe and responsible AI usage across teams.",
+  "duration": "4 hours",
+  "level": "Beginner",
+  "track": "Compliance",
+  "rating": 4.5,
+  "tags": [
+    "Safety",
+    "Ethics",
+    "Guidelines",
+    "Responsible AI"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "AI Safety Principles",
+      "duration": "2 hours",
+      "modules": []
+    }
+  ]
+}

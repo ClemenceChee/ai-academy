@@ -1,0 +1,47 @@
+{
+  "id": 6,
+  "title": "MLOps and Production AI",
+  "description": "Enterprise-grade ML deployment and operations",
+  "duration": "4 hours",
+  "level": "Advanced",
+  "track": "Developer",
+  "instructor": "tbd / Clemence",
+  "image_url": "/mlops-pipeline-architecture.png",
+  "tags": [
+    "MLOps",
+    "Production",
+    "DevOps",
+    "Deployment"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "MLOps Implementation and Best Practices",
+      "description": "Production-ready ML deployment and operations",
+      "duration": "2 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "🔧 Module 1: MLOps Fundamentals",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">MLOps for Production AI</h3>\n                        <p class=\"mb-4\">As your MLOps instructor with experience deploying ML at Fortune 500 scale, I'll teach you how to build production-ready ML systems that actually work in the real world.</p>\n                        \n                        <div class=\"bg-blue-50 p-4 rounded-lg mb-6\">\n                            <h4 class=\"font-semibold text-blue-900 mb-2\">🎯 Learning Objectives</h4>\n                            <ul class=\"text-blue-800 space-y-1\">\n                                <li>• Master MLOps pipeline design and implementation</li>\n                                <li>• Learn model versioning and deployment strategies</li>\n                                <li>• Understand monitoring and observability for ML</li>\n                                <li>• Implement automated retraining and updates</li>\n                            </ul>\n                        </div>\n                        \n                        <img src=\"/mlops-pipeline-architecture.png\" alt=\"MLOps Pipeline Architecture\" class=\"w-full max-h-96 object-contain mx-auto mb-6 rounded-lg shadow-md\" />\n                        \n                        <h4 class=\"font-semibold mb-3\">MLOps Maturity Levels</h4>\n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">Maturity Level</th>\n                                        <th class=\"px-4 py-3 text-left\">Characteristics</th>\n                                        <th class=\"px-4 py-3 text-left\">Deployment Method</th>\n                                        <th class=\"px-4 py-3 text-left\">Monitoring</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Level 0: Manual</td>\n                                        <td class=\"px-4 py-3\">Ad-hoc scripts, Manual deployment</td>\n                                        <td class=\"px-4 py-3\">Copy files to server</td>\n                                        <td class=\"px-4 py-3\">None</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Level 1: DevOps</td>\n                                        <td class=\"px-4 py-3\">Automated deployment, Version control</td>\n                                        <td class=\"px-4 py-3\">CI/CD pipelines</td>\n                                        <td class=\"px-4 py-3\">Basic metrics</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Level 2: Automated ML</td>\n                                        <td class=\"px-4 py-3\">Automated training, Model registry</td>\n                                        <td class=\"px-4 py-3\">Automated pipelines</td>\n                                        <td class=\"px-4 py-3\">Model performance</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Level 3: Full MLOps</td>\n                                        <td class=\"px-4 py-3\">End-to-end automation, Self-healing</td>\n                                        <td class=\"px-4 py-3\">Continuous deployment</td>\n                                        <td class=\"px-4 py-3\">Full observability</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                        \n                        <div class=\"bg-green-50 p-4 rounded-lg mb-4\">\n                            <h4 class=\"font-semibold text-green-900 mb-2\">🏗️ Production Architecture Insight</h4>\n                            <p class=\"text-green-800\">The difference between a data science experiment and a production ML system is everything that happens after model training. Focus on the infrastructure, not just the algorithm.</p>\n                        </div>\n                    </div>\n                    "
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "title": "MLOps Implementation Guide",
+          "description": "Step-by-step guide to implementing MLOps in your organization",
+          "download_url": "/downloads/mlops-implementation-guide.pdf"
+        }
+      ],
+      "resources": [
+        {
+          "id": 1,
+          "title": "Google MLOps Guide",
+          "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+          "description": "Comprehensive MLOps implementation guide"
+        }
+      ]
+    }
+  ]
+}

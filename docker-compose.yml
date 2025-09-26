@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  # Frontend React Application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - REACT_APP_API_URL=http://localhost:5000
+      - REACT_APP_APP_NAME=AI Academy
+    depends_on:
+      - backend
+    networks:
+      - ai-academy-network
+    restart: unless-stopped
+    container_name: ai-academy-frontend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Backend Flask API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      - PYTHONPATH=/app
+      - SECRET_KEY=ai-academy-secret-key-change-in-production
+    volumes:
+      - ./backend/src/content:/app/src/content:ro
+      - course_data:/app/data
+    networks:
+      - ai-academy-network
+    restart: unless-stopped
+    container_name: ai-academy-backend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Nginx Reverse Proxy (Production)
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - ai-academy-network
+    restart: unless-stopped
+    container_name: ai-academy-nginx
+    profiles:
+      - production
+
+networks:
+  ai-academy-network:
+    driver: bridge
+    name: ai-academy
+
+volumes:
+  course_data:
+    driver: local

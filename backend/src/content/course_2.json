@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "title": "GDPR Compliance for AI Systems",
+  "description": "Comprehensive guide to GDPR compliance in AI development and deployment.",
+  "duration": "6 hours",
+  "level": "Intermediate",
+  "track": "Compliance",
+  "rating": 4.7,
+  "tags": [
+    "GDPR",
+    "Compliance",
+    "Privacy",
+    "Legal"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "GDPR Fundamentals",
+      "duration": "3 hours",
+      "modules": []
+    }
+  ]
+}

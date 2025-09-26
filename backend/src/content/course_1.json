@@ -1,0 +1,46 @@
+{
+  "id": 1,
+  "title": "AI Strategy for Leadership",
+  "description": "Strategic frameworks for implementing AI initiatives across organizations. Learn how to develop comprehensive AI strategies, build AI-ready organizations, and lead digital transformation initiatives that leverage artificial intelligence for competitive advantage.",
+  "duration": "6 hours",
+  "level": "Beginner",
+  "track": "Leadership",
+  "rating": 4.8,
+  "tags": ["Strategy", "Leadership", "Business", "ROI"],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Strategic AI Overview",
+      "duration": "3 hours",
+      "modules": [
+        {
+          "id": "strategic-overview",
+          "title": "Module 1: Strategic AI Overview",
+          "content": "Comprehensive introduction to AI strategy and implementation frameworks."
+        },
+        {
+          "id": "implementation-roadmap",
+          "title": "Module 2: Implementation Roadmap",
+          "content": "Step-by-step guide to building and executing AI initiatives."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Building AI-Ready Organizations",
+      "duration": "3 hours",
+      "modules": [
+        {
+          "id": "organizational-readiness",
+          "title": "Module 1: Organizational Readiness",
+          "content": "Assessing and preparing your organization for AI transformation."
+        },
+        {
+          "id": "change-management",
+          "title": "Module 2: Change Management",
+          "content": "Leading successful AI adoption across teams and departments."
+        }
+      ]
+    }
+  ]
+}

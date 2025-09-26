@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B____ AI Academy - Backend Admin</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 3rem; }
+        .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .header p { font-size: 1.2rem; opacity: 0.9; }
+        .badge { 
+            display: inline-block; 
+            background: rgba(255,255,255,0.2); 
+            padding: 0.25rem 0.75rem; 
+            border-radius: 1rem; 
+            font-size: 0.875rem; 
+            margin-left: 1rem;
+        }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { 
+            background: rgba(255,255,255,0.1); 
+            backdrop-filter: blur(10px);
+            border-radius: 1rem; 
+            padding: 2rem; 
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .card h3 { font-size: 1.5rem; margin-bottom: 1rem; color: #fbbf24; }
+        .card p { margin-bottom: 1.5rem; opacity: 0.9; }
+        .btn { 
+            display: inline-block; 
+            background: #f59e0b; 
+            color: white; 
+            padding: 0.75rem 1.5rem; 
+            border-radius: 0.5rem; 
+            text-decoration: none; 
+            font-weight: 600;
+            transition: background 0.2s;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .btn:hover { background: #d97706; }
+        .btn-secondary { background: rgba(255,255,255,0.2); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.3); }
+        .api-list { list-style: none; }
+        .api-list li { 
+            background: rgba(0,0,0,0.2); 
+            padding: 0.75rem; 
+            margin: 0.5rem 0; 
+            border-radius: 0.5rem; 
+            font-family: monospace;
+        }
+        .status { color: #10b981; font-weight: 600; }
+        .warning { 
+            background: rgba(239, 68, 68, 0.1); 
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            padding: 1rem; 
+            border-radius: 0.5rem; 
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 B____ AI Academy Backend</h1>
+            <p>Admin Dashboard & API Management <span class="badge">v2.0.0</span></p>
+        </div>
+        
+        <div class="warning">
+            <strong>⚠️ Admin Interface:</strong> This is the backend administration panel. 
+            For the main application, visit: <strong>https://babbelai-8ode22.manus.space</strong>
+        </div>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>📊 Content Management</h3>
+                <p>Manage course content, lessons, and educational materials through the admin interface.</p>
+                <a href="/admin.html" class="btn">Open Admin Panel</a>
+                <p class="status">✅ 6 Courses Active</p>
+            </div>
+            
+            <div class="card">
+                <h3>📈 Analytics API</h3>
+                <p>Access real-time analytics data for dashboards and reporting.</p>
+                <a href="/api/analytics/overview" class="btn btn-secondary">View Analytics</a>
+                <a href="/api/analytics/course-performance" class="btn btn-secondary">Course Data</a>
+                <p class="status">✅ Real-time Data</p>
+            </div>
+            
+            <div class="card">
+                <h3>📚 Course Content API</h3>
+                <p>RESTful API endpoints for course data and lesson content.</p>
+                <a href="/api/courses" class="btn btn-secondary">All Courses</a>
+                <a href="/api/courses/1" class="btn btn-secondary">Sample Course</a>
+                <p class="status">✅ JSON Format</p>
+            </div>
+            
+            <div class="card">
+                <h3>🔍 API Endpoints</h3>
+                <p>Complete list of available API endpoints:</p>
+                <ul class="api-list">
+                    <li>GET /api/courses</li>
+                    <li>GET /api/courses/{id}</li>
+                    <li>GET /api/analytics/overview</li>
+                    <li>GET /api/analytics/course-performance</li>
+                    <li>GET /api/analytics/user-engagement</li>
+                    <li>GET /health</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>⚙️ System Status</h3>
+                <p>Backend system health and configuration:</p>
+                <p class="status">✅ API Server: Online</p>
+                <p class="status">✅ CORS: Enabled</p>
+                <p class="status">✅ Content: 6 Courses Loaded</p>
+                <p class="status">✅ Analytics: Real-time Data</p>
+                <a href="/health" class="btn btn-secondary">Health Check</a>
+            </div>
+            
+            <div class="card">
+                <h3>🌐 Frontend Application</h3>
+                <p>Access the main user-facing React application:</p>
+                <a href="https://babbelai-8ode22.manus.space" class="btn" target="_blank">Open Frontend App</a>
+                <p style="margin-top: 1rem; font-size: 0.875rem; opacity: 0.8;">
+                    Demo Login: demo@company.com / demo123
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

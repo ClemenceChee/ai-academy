@@ -1,0 +1,47 @@
+{
+  "id": 4,
+  "title": "Machine Learning for Developers",
+  "description": "Practical machine learning implementation for software developers",
+  "duration": "10 hours",
+  "level": "Intermediate",
+  "track": "Developer",
+  "instructor": "tbd / Clemence",
+  "image_url": "/ml-workflow-diagram.png",
+  "tags": [
+    "ML",
+    "Development",
+    "Technical",
+    "Implementation"
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "ML Fundamentals and Implementation",
+      "description": "Core machine learning concepts and practical implementation",
+      "duration": "5 hours",
+      "modules": [
+        {
+          "id": 1,
+          "title": "🤖 Module 1: ML Fundamentals",
+          "content": "\n                    <div class=\"mb-6\">\n                        <h3 class=\"text-lg font-semibold mb-4\">Machine Learning for Developers</h3>\n                        <p class=\"mb-4\">As your ML instructor with 8 years of production ML experience, I'll teach you practical machine learning without requiring a PhD in mathematics.</p>\n                        \n                        <div class=\"bg-blue-50 p-4 rounded-lg mb-6\">\n                            <h4 class=\"font-semibold text-blue-900 mb-2\">🎯 Learning Objectives</h4>\n                            <ul class=\"text-blue-800 space-y-1\">\n                                <li>• Understand core ML algorithms and their applications</li>\n                                <li>• Learn practical feature engineering techniques</li>\n                                <li>• Master model evaluation and selection</li>\n                                <li>• Implement end-to-end ML pipelines</li>\n                            </ul>\n                        </div>\n                        \n                        <img src=\"/ml-workflow-diagram.png\" alt=\"ML Workflow\" class=\"w-full max-h-96 object-contain mx-auto mb-6 rounded-lg shadow-md\" />\n                        \n                        <h4 class=\"font-semibold mb-3\">Algorithm Selection Guide</h4>\n                        <div class=\"overflow-x-auto mb-6\">\n                            <table class=\"min-w-full bg-white border border-gray-200\">\n                                <thead class=\"bg-orange-500 text-white\">\n                                    <tr>\n                                        <th class=\"px-4 py-3 text-left\">Problem Type</th>\n                                        <th class=\"px-4 py-3 text-left\">Recommended Algorithm</th>\n                                        <th class=\"px-4 py-3 text-left\">Data Size</th>\n                                        <th class=\"px-4 py-3 text-left\">Interpretability</th>\n                                    </tr>\n                                </thead>\n                                <tbody class=\"divide-y divide-gray-200\">\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Classification (Small)</td>\n                                        <td class=\"px-4 py-3\">Random Forest, SVM</td>\n                                        <td class=\"px-4 py-3\">&lt; 10K samples</td>\n                                        <td class=\"px-4 py-3\">🔥🔥 Medium</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Classification (Large)</td>\n                                        <td class=\"px-4 py-3\">Neural Networks, XGBoost</td>\n                                        <td class=\"px-4 py-3\">&gt; 100K samples</td>\n                                        <td class=\"px-4 py-3\">🔥 Low</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Regression</td>\n                                        <td class=\"px-4 py-3\">Linear Regression, Ridge</td>\n                                        <td class=\"px-4 py-3\">Any size</td>\n                                        <td class=\"px-4 py-3\">🔥🔥🔥 High</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-gray-50\">\n                                        <td class=\"px-4 py-3 font-medium\">Time Series</td>\n                                        <td class=\"px-4 py-3\">LSTM, Prophet</td>\n                                        <td class=\"px-4 py-3\">Sequential data</td>\n                                        <td class=\"px-4 py-3\">🔥🔥 Medium</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                        \n                        <div class=\"bg-yellow-50 p-4 rounded-lg mb-4\">\n                            <h4 class=\"font-semibold text-yellow-900 mb-2\">⚡ Developer Pro Tip</h4>\n                            <p class=\"text-yellow-800\">Start simple. I've seen too many developers jump to complex neural networks when a simple linear regression would work better. Always establish a baseline with simple models first.</p>\n                        </div>\n                    </div>\n                    "
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "title": "Algorithm Selection Workbook",
+          "description": "Practice selecting appropriate ML algorithms for different problems",
+          "download_url": "/downloads/ml-algorithm-selection.pdf"
+        }
+      ],
+      "resources": [
+        {
+          "id": 1,
+          "title": "Scikit-learn Documentation",
+          "url": "https://scikit-learn.org/stable/",
+          "description": "Comprehensive ML library documentation"
+        }
+      ]
+    }
+  ]
+}
