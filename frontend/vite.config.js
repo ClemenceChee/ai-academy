@@ -17,7 +17,6 @@ export default defineConfig({
     allowedHosts: [
       'localhost',
       '127.0.0.1',
-      '5185-i57gu6sf9i4d0wl3031q6-774b75ea.manusvm.computer'
     ]
   }
 })

@@ -323,4 +323,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Ready to transform your organization's AI literacy? Get started with AI Academy today!** 🚀
 
-*This project was created with the help of Manus AI.*
+

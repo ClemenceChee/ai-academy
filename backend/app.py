@@ -495,7 +495,7 @@ def index():
             
             <div class="warning">
                 <strong>⚠️ Admin Interface:</strong> This is the backend administration panel. 
-                For the main application, visit: <strong>https://babbelai-8ode22.manus.space</strong>
+                For the main application, visit: <strong>http://localhost:3000</strong>
             </div>
             
             <div class="grid">
@@ -548,7 +548,7 @@ def index():
                 <div class="card">
                     <h3>🌐 Frontend Application</h3>
                     <p>Access the main user-facing React application:</p>
-                    <a href="https://babbelai-8ode22.manus.space" class="btn" target="_blank">Open Frontend App</a>
+                    <a href="http://localhost:3000" class="btn" target="_blank">Open Frontend App</a>
                     <p style="margin-top: 1rem; font-size: 0.875rem; opacity: 0.8;">
                         Demo Login: demo@company.com / demo123
                     </p>
